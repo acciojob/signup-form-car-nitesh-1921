@@ -9,41 +9,33 @@
 <body>
 	<!-- the entire body must be written by student -->
     <form method="post">
-		<lable for="name">Name</lable>
-		<input type="text" placeholder="Name" id="name" required>
-		
-		<lable for="email">Email</lable>
-		<input type="email" placeholder="Email" id="email" required>
+		<label for="name">Name</label>
+		<input placeholder="Name" type="text" id="name" required>
+		<label for="email">Email</label>
+		<input placeholder="Email" type="email" id="email" required>
+		<label for="gender_m">male</label>
+		<input  type="radio" id="gender_m" name="gender" required>
+		<label for="gender_f">Female</label>
+		<input type="radio" id="gender_f" name="gender" required>
 
-		<lable for="gender_m">Male</lable>
-		<input type="radio" placeholder="" name="gender" id="gender_m" required>
-		<lable for="gender_f">Female</lable>
-		<input type="radio" placeholder="" name="gender" id="gender_f" required>
-
-		<lable for="cars">Select a Cars</lable>
-		<select id="cars" placeholder="--Please choose an option--" type="select" requied>
-			<option>Bmw</option> 
+		<select placeholder="--Please choose an option--" id="cars" required>
+			<option>BMW</option>
 			<option>Audi</option>
 			<option>Tata</option>
 		</select>
 
-		<lable for="age">Age</lable>
-		<input type="number" placeholder="Age" id="age" required>
-
-		<lable for="dob">DOB</lable>
+		<label for="age">Age</label>
+		<input placeholder="Age" type="number" id="age" required>
+		<label for="dob">DOB</label>
 		<input type="date" id="dob" required>
-
-		<lable for="tel">Phone Number</lable>
-		<input type="tel" placeholder="xxx-xxx-xxxx" id="tel">
-
-		<lable for="password">Password</lable>
-		<input type="password" placeholder="Password" id="password" required>
-
-		<lable for="tos">I agree to the TOS</lable>
-		<input type="checkbox" id="tos" required>
-
-		<button type="submit">Submit</button>
-	</form>	
+		<label for="tel">Phone Number</label>
+		<input placeholder="xxx-xxx-xxxx" type="tel" id="tel">
+		<label for="password">Password</label>
+		<input placeholder="Password" type="password" id="password" required>
+		<label for="tos">I agree to the TOS</label>
+		<input  type="checkbox" required id="tos">
+		<button type="submit">
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
